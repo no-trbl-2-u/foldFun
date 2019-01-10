@@ -39,13 +39,14 @@ f (x:xs) = x (+) f xs                  -- || func(head xs) f(xs)
 
 Common GHCI commands:
 
-    :help   || :h         = show all commands
-
+  ### System:
+    :help            ||   :h   = show all commands
+    :exit            || ctrl+d = exit GHCI
 
   ### Scripts:
-    :main <...args>  ||   :m   = run main.hs w/ args
     :load <script>   ||   :l   = load script
     :reload          ||   :r   = reload script
+    :main <...args>  ||   :m   = run main.hs w/ args
 
   ### Info:
     :type <exp>      ||   :t   = show type info
